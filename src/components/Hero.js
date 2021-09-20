@@ -4,12 +4,12 @@ import photo from "../images/me.png";
 
 export default function Hero() {
   return (
-    <div className="mt-16 grid grid-cols-1 lg:grid-cols-2">
+    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2">
       <div className="my-auto px-5 flex flex-col justify-start md:justify-center lg:justify-start">
         <h1 className="font-primary font-bold text-white text-5xl text-left">
           Hey there,
         </h1>
-        <h1 className="font-primary font-bold text-white text-5xl text-left">
+        <h1 className="mt-2 font-primary font-bold text-white text-5xl text-left">
           I'm Rohin Bhat
         </h1>
         <div className="mt-4 font-primary font-medium text-blue-500 text-4xl text-left">
