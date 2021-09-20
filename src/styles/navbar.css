@@ -9,7 +9,7 @@
 .navbar .logo-image {
   margin: auto 0px;
   float: left;
-  height: 50%;
+  height: 70%;
 }
 
 .navbar-tabs {
@@ -17,15 +17,4 @@
   height: 100%;
   float: right;
   justify-content: center;
-}
-
-.nav-item {
-  padding: 0px 20px;
-  margin: auto 0px;
-  font-size: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  color: #ffffff;
-  font-family: "IBM Plex Mono", Times, serif;
-  font-weight: 500;
 }

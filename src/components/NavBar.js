@@ -8,24 +8,36 @@ import logo from "../images/portfolio-logo-white.png";
 export default function NavBar() {
   return (
     <BrowserRouter>
-      <div className="navbar">
-        <img src={logo} className="logo-image" alt="Logo" />
-        <div className="navbar-tabs">
-          <Link to="/" className="nav-item">
+      <div className="w-11/12 relative max-w-screen-xl mx-auto flex items-center justify-between px-8 sm:px-6">
+        <img src={logo} className="h-24" alt="Logo" />
+        <div className="flex">
+          <Link
+            to="/"
+            className="my-auto text-white font-primary font-medium text-lg px-5"
+          >
             Home
           </Link>
-          <Link to="/" className="nav-item">
+          <Link
+            to="/"
+            className="my-auto text-white font-primary font-medium text-lg px-5"
+          >
             About Me
           </Link>
-          <Link to="/" className="nav-item">
+          <Link
+            to="/"
+            className="my-auto text-white font-primary font-medium text-lg px-5"
+          >
             What I do
           </Link>
-          <Link to="/" className="nav-item">
+          <Link
+            to="/"
+            className="my-auto text-white font-primary font-medium text-lg px-5"
+          >
             Projects
           </Link>
-          <Link to="/" className="nav-item">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded font-primary text-lg ">
             Contact Me
-          </Link>
+          </button>
         </div>
       </div>
     </BrowserRouter>
