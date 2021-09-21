@@ -48,7 +48,11 @@ export default function Hero() {
       </div>
 
       <div className="px-5 flex flex-col items-center">
-        <img src={photo} className="mt-8 lg:mt-0" alt="Rohin Bhat" />
+        <img
+          src={photo}
+          className="rounded-full shadow-2xl mt-8 lg:mt-0"
+          alt="Rohin Bhat"
+        />
       </div>
     </div>
   );
