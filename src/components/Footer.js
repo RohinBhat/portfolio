@@ -63,7 +63,7 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-      <div className="my-auto mt-4 order-2 md:order-1">
+      <div className="mt-4 order-2 md:order-1 md:my-auto ">
         <p className="font-secondary font-semibold text-gray-400 text-md ">
           Made with ❤️ by Rohin Bhat.
         </p>

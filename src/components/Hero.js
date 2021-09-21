@@ -4,7 +4,7 @@ import photo from "../images/me.png";
 
 export default function Hero() {
   return (
-    <div className="mt-6 grid grid-cols-1 lg:grid-cols-2">
+    <div className="mt-10 grid grid-cols-1 lg:grid-cols-2">
       <div className="my-auto px-5 flex flex-col justify-start md:justify-center lg:justify-start">
         <h1 className="font-primary font-bold text-white text-5xl text-left">
           Hey there,

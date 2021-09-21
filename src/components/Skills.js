@@ -13,8 +13,8 @@ export default function Skills() {
       </h1>
       <div className="mt-8 py-4 px-4 bg-gray-800 items-center justify-center rounded-md">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8">
-          {skillsData.map((skill) => {
-            return <SkillCard details={skill} />;
+          {skillsData.map((skill, index) => {
+            return <SkillCard details={skill} key={index} />;
           })}
         </div>
       </div>
