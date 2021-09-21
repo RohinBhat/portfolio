@@ -34,7 +34,7 @@ export default function NavBar() {
             Projects
           </Link>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded font-primary text-lg ">
-            Contact Me
+            Contact Me ☎️
           </button>
         </div>
       </div>

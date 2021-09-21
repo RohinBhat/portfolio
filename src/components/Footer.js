@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bottom-0 px-5 flex flex-col border-t border-gray-800 mt-8 py-4 justify-center md:justify-between md:flex-row">
+    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-t border-gray-800 mt-8 py-4 justify-center md:justify-between md:flex-row">
       <div className="my-auto">
         <p className="font-secondary font-semibold text-gray-400 text-md">
           Made with ❤️ by Rohin Bhat.
@@ -68,6 +68,6 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
