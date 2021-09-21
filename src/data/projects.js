@@ -24,7 +24,7 @@ export const projectsData = [
   {
     name: "Note It Down",
     description:
-      "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices with Firebase for the backend.",
+      "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices using Firebase in the backend.",
     image: noteitdown,
     code: "https://github.com/RohinBhat/NoteItDown",
   },

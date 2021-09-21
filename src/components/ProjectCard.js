@@ -5,7 +5,7 @@ export const ProjectCard = (props) => {
 
   return (
     <div className="mx-auto pt-4 max-w-lg mt-4">
-      <div className="bg-gray-800 shadow-2xl rounded-lg">
+      <div className="bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-500">
         <img
           src={image}
           alt={name}

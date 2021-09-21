@@ -1,8 +1,7 @@
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { BrowserRouter, Link } from "react-router-dom";
 
 import React from "react";
 import logo from "../images/portfolio-logo-white.png";
-import { useState } from "react";
 
 export default function NavBar() {
   return (
@@ -11,7 +10,7 @@ export default function NavBar() {
         <Link to="/">
           <img
             src={logo}
-            className="max-h-16 md:max-h-20 xl:max-h-24"
+            className="max-h-16 md:max-h-20 xl:max-h-24 transition duration-500 ease-in-out transform hover:scale-105"
             alt="Logo"
           />
         </Link>
@@ -36,29 +35,29 @@ export default function NavBar() {
           <div className="flex flex-col lg:flex lg:flex-row">
             <Link
               to="/"
-              className="text-white font-primary font-medium text-lg px-5 hover:text-blue-500 mt-2 lg:my-auto"
+              className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
             >
               Home
             </Link>
             <Link
               to="/"
-              className="text-white font-primary font-medium text-lg px-5 hover:text-blue-500 mt-2 lg:my-auto"
+              className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
             >
               About Me
             </Link>
             <Link
               to="/"
-              className="text-white font-primary font-medium text-lg px-5 hover:text-blue-500 mt-2 lg:my-auto"
+              className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
             >
               What I do
             </Link>
             <Link
               to="/"
-              className="text-white font-primary font-medium text-lg px-5 hover:text-blue-500 mt-2 lg:my-auto"
+              className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
             >
               Projects
             </Link>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded font-primary text-lg mt-2 mb-4 lg:mt-0 lg:mb-0">
+            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-2 mb-4 lg:mt-0 lg:mb-0">
               Contact Me ☎️
             </button>
           </div>

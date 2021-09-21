@@ -33,15 +33,15 @@ export default function Hero() {
           />
         </div>
         <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
-          I am Computer Engineering Undergraduate at Pune Institute of Computer
-          Technology with a keen interest in the field of Mobile App Development
-          and Graphic Design.
+          I am a Computer Engineering Undergraduate at Pune Institute of
+          Computer Technology with a keen interest in the field of Mobile App
+          Development and Graphic Design.
         </h1>
         <div className="flex flex-col lg:flex-row lg:justify-around">
-          <button className="mt-8 bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded">
+          <button className="mt-8 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded">
             See my Resume
           </button>
-          <button className="mt-4 bg-transparent hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8">
+          <button className="mt-4 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8">
             Hire me now
           </button>
         </div>
