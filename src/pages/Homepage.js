@@ -3,14 +3,14 @@ import Hero from "../components/Hero";
 import HiringCTA from "../components/HiringCTA";
 import NavBar from "../components/NavBar";
 import React from "react";
-import Services from "../components/Services";
+import Skills from "../components/Skills";
 
 export default function Homepage() {
   return (
     <div className="container">
       <NavBar />
       <Hero />
-      <Services />
+      <Skills />
       <HiringCTA />
       <Footer />
     </div>

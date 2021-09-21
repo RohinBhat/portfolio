@@ -2,13 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-t border-gray-800 mt-8 py-4 justify-center md:justify-between md:flex-row">
-      <div className="my-auto">
-        <p className="font-secondary font-semibold text-gray-400 text-md">
-          Made with ❤️ by Rohin Bhat.
-        </p>
-      </div>
-      <div className="flex order-1 space-x-8 md:order-2">
+    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-t border-gray-800 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
+      <div className="flex space-x-8 order-1 md:order-2">
         <a href="https://github.com/RohinBhat" target="_blank" rel="noreferrer">
           <svg
             className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
@@ -67,6 +62,11 @@ export default function Footer() {
             <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
           </svg>
         </a>
+      </div>
+      <div className="my-auto mt-4 order-2 md:order-1">
+        <p className="font-secondary font-semibold text-gray-400 text-md ">
+          Made with ❤️ by Rohin Bhat.
+        </p>
       </div>
     </footer>
   );
