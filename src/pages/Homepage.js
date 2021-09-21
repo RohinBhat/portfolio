@@ -1,6 +1,6 @@
+import CollabCTA from "../components/CollabCTA";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
-import HiringCTA from "../components/HiringCTA";
 import NavBar from "../components/NavBar";
 import Projects from "../components/Projects";
 import React from "react";
@@ -15,7 +15,7 @@ export default function Homepage() {
       <Skills />
       <Projects />
       <Recommendations />
-      <HiringCTA />
+      <CollabCTA />
       <Footer />
     </div>
   );
