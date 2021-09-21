@@ -4,7 +4,7 @@ import skillsData from "../data/skills.json";
 
 export default function Skills() {
   return (
-    <section className="mt-16">
+    <section className="mt-16 mx-3">
       <h1 className="font-secondary font-semibold text-2xl capitalize text-blue-500">
         WHAT I KNOW
       </h1>

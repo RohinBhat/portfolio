@@ -4,7 +4,7 @@ import { projectsData } from "../data/projects";
 
 export default function Projects() {
   return (
-    <section className="mt-16">
+    <section className="mt-16 mx-3">
       <h1 className="font-secondary font-semibold text-2xl capitalize text-blue-500">
         TAKE A LOOK
       </h1>

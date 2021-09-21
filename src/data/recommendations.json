@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Soubhik Das",
+        "designation": "Co Founder, Manastik",
+        "quote": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati laudantium recusandae, debitis eum voluptatem ad, illo voluptatibus temporibus odio provident.",
+        "url": "https://media-exp1.licdn.com/dms/image/C4E03AQE8qaxHb6IzDg/profile-displayphoto-shrink_100_100/0/1598522261807?e=1637798400&v=beta&t=Q0hJ1zbxxRKIb5M4L5c0Vf4DXfWKmGVXWxhLiByqKqo"
+    },
+    {
+        "name": "John Doe",
+        "designation": "Founder, Joe Mama",
+        "quote": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam obcaecati laudantium recusandae, debitis eum voluptatem ad, illo voluptatibus temporibus odio provident.",
+        "url": "https://randomuser.me/api/portraits/men/15.jpg"
+    }
+]
