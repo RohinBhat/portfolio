@@ -1,11 +1,11 @@
-import CollabCTA from "../components/CollabCTA";
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import NavBar from "../components/NavBar";
-import Projects from "../components/Projects";
+import CollabCTA from "../components/Homepage/CollabCTA";
+import Footer from "../components/Shared/Footer";
+import Hero from "../components/Homepage/Hero";
+import NavBar from "../components/Shared/NavBar";
+import Projects from "../components/Homepage/Projects";
 import React from "react";
-import Recommendations from "../components/Recommendations";
-import Skills from "../components/Skills";
+import Recommendations from "../components/Homepage/Recommendations";
+import Skills from "../components/Homepage/Skills";
 
 export default function Homepage() {
   return (

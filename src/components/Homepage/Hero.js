@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import photo from "../images/me.png";
+import photo from "../../images/me.png";
 
 export default function Hero() {
   return (

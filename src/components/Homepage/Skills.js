@@ -1,6 +1,6 @@
 import React from "react";
 import { SkillCard } from "./SkillCard";
-import skillsData from "../data/skills.json";
+import skillsData from "../../data/skills.json";
 
 export default function Skills() {
   return (

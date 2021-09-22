@@ -1,7 +1,7 @@
 import { BrowserRouter, Link } from "react-router-dom";
 
 import React from "react";
-import logo from "../images/portfolio-logo-white.png";
+import logo from "../../images/portfolio-logo-white.png";
 
 export default function NavBar() {
   return (

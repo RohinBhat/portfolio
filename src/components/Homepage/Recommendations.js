@@ -1,6 +1,6 @@
 import React from "react";
 import { RecommendationCard } from "./RecommendationCard";
-import recommendationsData from "../data/recommendations.json";
+import recommendationsData from "../../data/recommendations.json";
 import { useState } from "react";
 
 export default function Recommendations() {
