@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import photo from "../../images/me.png";
+import photo from "../../images/me.jpg";
 
 export default function Hero() {
   return (
@@ -50,7 +50,7 @@ export default function Hero() {
       <div className="px-5 flex flex-col items-center">
         <img
           src={photo}
-          className="rounded-full shadow-2xl mt-8 lg:mt-0"
+          className="overflow-hidden rounded-full shadow-2xl mt-8 lg:mt-0"
           alt="Rohin Bhat"
         />
       </div>
