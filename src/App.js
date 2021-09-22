@@ -1,14 +1,28 @@
 import "./App.css";
 
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+
+import Footer from "./components/Shared/Footer";
 import Homepage from "./pages/Homepage";
+import NavBar from "./components/Shared/NavBar";
+import Resume from "./pages/Resume";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <div className="w-11/12 md:w-3/4 mx-auto">
-        <Homepage />
+        <NavBar />
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
+        <Footer />
       </div>
-    </div>
+    </Router>
   );
 }
 

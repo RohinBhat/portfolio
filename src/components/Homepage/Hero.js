@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import photo from "../../images/me.jpg";
@@ -38,12 +39,16 @@ export default function Hero() {
           Development and Graphic Design.
         </h1>
         <div className="flex flex-col lg:flex-row lg:justify-around">
-          <button className="mt-8 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded">
-            See my Resume
-          </button>
-          <button className="mt-4 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8">
-            Hire me now
-          </button>
+          <Link to="/resume">
+            <button className="w-full mt-8 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:w-auto">
+              See my Resume
+            </button>
+          </Link>
+          <Link>
+            <button className="w-full mt-4 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8 lg:w-auto">
+              Hire me now
+            </button>
+          </Link>
         </div>
       </div>
 
