@@ -56,7 +56,7 @@ export default function NavBar() {
           >
             Resume
           </NavLink>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-2 mb-4 lg:mt-0 lg:mb-0">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-medium transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-2 mb-4 lg:mt-0 lg:mb-0">
             Contact Me ☎️
           </button>
         </div>

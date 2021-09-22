@@ -12,10 +12,10 @@ export const ProjectCard = (props) => {
           className="w-full object-cover h-64 rounded-lg rounded-b-none"
         />
         <div className="px-4 py-2 mt-2">
-          <h2 className="font-bold font-primary text-2xl text-blue-500">
+          <h2 className="text-center font-bold font-primary text-2xl text-blue-500">
             {name}
           </h2>
-          <p className="text-sm text-secondary text-gray-300 px-2 py-2">
+          <p className="text-center text-sm text-secondary text-gray-300 px-2 py-2">
             {description}
           </p>
         </div>
