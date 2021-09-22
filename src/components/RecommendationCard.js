@@ -1,12 +1,14 @@
 import React from "react";
 
 export const RecommendationCard = (props) => {
-  const { name, designation, quote, url } = props.recommendation;
+  const { name, designation, quote, url, linkedin } = props.recommendation;
   return (
     <div className="w-full mx-auto rounded-lg bg-gray-800 shadow-lg px-5 pt-5 pb-10 transition ease-in-out hover:scale-105 transform -translate-y-2">
       <div className="w-full pt-1 pb-5">
-        <div className="overflow-hidden rounded-full w-20 h-20 -mt-16 mx-auto shadow-lg">
-          <img src={url} alt={name} />
+        <div className="overflow-hidden rounded-full border-4 border-full border-blue-500 w-24 h-24 -mt-16 mx-auto shadow-lg">
+          <a href={linkedin ? linkedin : null} target="_blank" rel="noreferrer">
+            <img src={url} alt={name} />
+          </a>
         </div>
       </div>
       <div className="w-full">
