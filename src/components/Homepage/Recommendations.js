@@ -20,7 +20,7 @@ export default function Recommendations() {
       <h1 className="text-center font-secondary font-semibold text-2xl capitalize text-blue-500">
         WHAT MY SENIORS SAY
       </h1>
-      <h1 className="text-center mt-2 font-primary font-black text-5xl capitalize text-gray-300">
+      <h1 className="text-center mt-2 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
         Recommendations
       </h1>
       <div className="mt-20 grid grid-cols-1 gap-8">
@@ -32,8 +32,8 @@ export default function Recommendations() {
             <span
               className={`h-4 w-4 rounded-full cursor-pointer transition duration-300 ease-in-out ${
                 index === active
-                  ? `bg-gray-300 hover:bg-blue-500`
-                  : `border-gray-300 hover:border-blue-500 border`
+                  ? `bg-gray-300 hover:bg-yellow-400`
+                  : `border-gray-300 hover:border-yellow-400 border`
               }`}
               onClick={(event) => clickHandler(event)}
               data-recommendation={index}

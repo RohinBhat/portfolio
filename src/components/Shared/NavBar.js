@@ -39,13 +39,13 @@ export default function NavBar() {
             Home
           </NavLink>
           <Link
-            to="/"
+            to="/about"
             className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
           >
             About Me
           </Link>
           <Link
-            to="/"
+            to="/work"
             className="text-white font-primary font-medium text-lg px-5 transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
           >
             What I do

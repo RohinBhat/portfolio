@@ -2,10 +2,12 @@ import "./App.css";
 
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
+import AboutMe from "./pages/AboutMe";
 import Footer from "./components/Shared/Footer";
 import Homepage from "./pages/Homepage";
 import NavBar from "./components/Shared/NavBar";
 import Resume from "./pages/Resume";
+import WhatIDo from "./pages/WhatIDo";
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           </Route>
           <Route exact path="/resume">
             <Resume />
+          </Route>
+          <Route exact path="/about">
+            <AboutMe />
+          </Route>
+          <Route exact path="/work">
+            <WhatIDo />
           </Route>
         </Switch>
         <Footer />
