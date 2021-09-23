@@ -20,12 +20,20 @@ export default function Recommendations() {
       <h1 className="text-center font-secondary font-semibold text-2xl capitalize text-blue-500">
         WHAT MY SENIORS SAY
       </h1>
-      <h1 className="text-center mt-2 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-        Recommendations
-      </h1>
+      <a
+        href="https://www.linkedin.com/in/rohin-bhat-a2a9a5192/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h1 className="text-center mt-2 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+          Recommendations
+        </h1>
+      </a>
+
       <div className="mt-20 grid grid-cols-1 gap-8">
         <RecommendationCard recommendation={current} />
       </div>
+
       <div>
         <div className="flex flex-row justify-center space-x-2 py-4">
           {recommendationsData.map((recommendation, index) => (

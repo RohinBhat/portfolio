@@ -3,6 +3,7 @@ import "./App.css";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import AboutMe from "./pages/AboutMe";
+import Contact from "./pages/Contact";
 import Footer from "./components/Shared/Footer";
 import Homepage from "./pages/Homepage";
 import NavBar from "./components/Shared/NavBar";
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route exact path="/work">
             <WhatIDo />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
           </Route>
         </Switch>
         <Footer />

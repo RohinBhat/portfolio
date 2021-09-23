@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 
 export default function CollabCTA() {
@@ -15,13 +16,11 @@ export default function CollabCTA() {
           </div>
 
           <div className="pt-8 md:pt-0 justify-center lg:ml-auto z-10">
-            <button
-              href="/"
-              target="_blank"
-              className="flex items-center px-8 py-4 text-center font-primary font-semibold text-lg text-white bg-blue-500 font-display rounded-md transition duration-500 hover:bg-blue-700 hover:text-white"
-            >
-              <p>☕ Let's Talk</p>
-            </button>
+            <Link to="/contact">
+              <button className="flex items-center px-8 py-4 text-center font-primary font-semibold text-lg text-white bg-blue-500 font-display rounded-md transition duration-500 hover:bg-blue-700 hover:text-white">
+                <p>☕ Let's Talk</p>
+              </button>
+            </Link>
           </div>
 
           <div className="absolute bg-gray-700 opacity-60 w-96 h-96 -top-12 -right-16 md:w-[800px] md:h-[600px] md:left-[45%] md:top-[-150%] rounded-full shadow-2xl z-0"></div>

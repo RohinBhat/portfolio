@@ -44,7 +44,7 @@ export default function Hero() {
               See my Resume
             </button>
           </Link>
-          <Link>
+          <Link to="/contact">
             <button className="w-full mt-4 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8 lg:w-auto">
               Hire me now
             </button>
