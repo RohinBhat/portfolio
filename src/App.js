@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Shared/Footer";
 import Homepage from "./pages/Homepage";
 import NavBar from "./components/Shared/NavBar";
+import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
 import WhatIDo from "./pages/WhatIDo";
 
@@ -30,6 +31,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact />
+          </Route>
+          <Route path="">
+            <NotFound />
           </Route>
         </Switch>
         <Footer />
