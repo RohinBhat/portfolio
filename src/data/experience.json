@@ -1,0 +1,22 @@
+[
+    {
+        "date": "SEPTEMBER 2021 - PRESENT",
+        "title": "RobIN Automotives",
+        "subtitle": "Mobile App Developer",
+        "details": "Worked on developing a mobile app for Robust Intelligent Network's personalised smart Electic Vehicle for enhancing the rider's experience.",
+        "techStack": [
+            "React Native"
+        ]
+    },
+    {
+        "date": "AUGUST 2021 - PRESENT",
+        "title": "Manastik",
+        "subtitle": "Software Engineer Intern",
+        "details": "Worked on the developing Dementia Active Diagnosis and Tracking (DADT) mobile app.",
+        "techStack": [
+            "Flutter",
+            "NodeJS",
+            "DynamoDB"
+        ]
+    }
+]
