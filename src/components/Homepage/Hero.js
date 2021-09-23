@@ -36,7 +36,7 @@ export default function Hero() {
         <h1 className="mt-4 font-secondary font-normal text-gray-400 text-xl text-left">
           I am a Computer Engineering Undergraduate at Pune Institute of
           Computer Technology with a keen interest in the field of Mobile App
-          Development and Graphic Design.
+          Development, Web Development and Graphic Design.
         </h1>
         <div className="flex flex-col lg:flex-row lg:justify-around">
           <Link to="/resume">
