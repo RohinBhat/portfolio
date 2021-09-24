@@ -11,6 +11,7 @@ export const projectsData = [
     website: "https://radiance21.in/",
     deployment:
       "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
+    techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
   },
   {
     name: "Fast 'n fresh",
@@ -20,6 +21,7 @@ export const projectsData = [
     code: "https://github.com/Fast-n-fresh/fast-n-fresh-app",
     deployment:
       "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
+    techStack: ["Flutter", "NodeJS", "MongoDB"],
   },
   {
     name: "Note It Down",
@@ -27,5 +29,6 @@ export const projectsData = [
       "A Note-taking app along with a to-do list (Tasks) functionality, Note It Down is an app developed for Android devices using Firebase in the backend.",
     image: noteitdown,
     code: "https://github.com/RohinBhat/NoteItDown",
+    techStack: ["Android", "Firebase"],
   },
 ];

@@ -1,7 +1,8 @@
 import React from "react";
 
 export const ProjectCard = (props) => {
-  const { name, description, image, code, website, deployment } = props.project;
+  const { name, description, image, code, website, deployment, techStack } =
+    props.project;
 
   return (
     <div className="mx-auto pt-4 max-w-lg mt-4">
@@ -18,6 +19,18 @@ export const ProjectCard = (props) => {
           <p className="text-center text-sm text-secondary text-gray-300 px-2 py-2">
             {description}
           </p>
+        </div>
+        <div className="space-y-2 mb-6 text-center">
+          {techStack.map((stack, index) => {
+            return (
+              <span
+                className="inline-block rounded-full bg-gray-700 mr-2 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                key={index}
+              >
+                {stack}
+              </span>
+            );
+          })}
         </div>
         <div className="border border-t-0 border-gray-700 mx-6"></div>
         <div className="flex px-8 py-4 justify-around">
