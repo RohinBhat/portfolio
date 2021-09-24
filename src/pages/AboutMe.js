@@ -1,5 +1,6 @@
 import Education from "../components/AboutMe/Education";
 import Experience from "../components/AboutMe/Experience";
+import Organizations from "../components/AboutMe/Organizations";
 import React from "react";
 
 export default function AboutMe() {
@@ -23,6 +24,7 @@ export default function AboutMe() {
       </p>
       <Education />
       <Experience />
+      <Organizations />
     </div>
   );
 }
