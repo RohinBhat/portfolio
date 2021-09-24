@@ -6,7 +6,7 @@ export const ProjectCard = (props) => {
 
   return (
     <div className="mx-auto pt-4 max-w-lg mt-4">
-      <div className="bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
+      <div className="flex flex-col h-full bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
         <img
           src={image}
           alt={name}
@@ -32,7 +32,7 @@ export const ProjectCard = (props) => {
             );
           })}
         </div>
-        <div className="border border-t-0 border-gray-700 mx-6"></div>
+        <div className="flex flex-col flex-grow border border-t-0 border-r-0 border-l-0 border-gray-700 mx-6"></div>
         <div className="flex px-8 py-4 justify-around">
           {code ? (
             <a href={code} target="_blank" rel="noreferrer">

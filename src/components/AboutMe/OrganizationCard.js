@@ -3,11 +3,11 @@ import React from "react";
 export const OrganizationCard = (props) => {
   const { date, position, name, logo } = props.organization;
   return (
-    <div className="w-full xl:w-1/2">
-      <div className="bg-gray-800 rounded-lg px-4 py-6 m-4 h-auto">
+    <div className="w-full xl:w-1/2 my-4">
+      <div className="bg-gray-800 rounded-lg px-8 py-6 m-4 h-full">
         <div className="flex space-x-8 h-full">
           <img
-            className="rounded-full h-28 w-28 bg-white my-auto"
+            className="rounded-full h-24 w-24 bg-white my-auto"
             src={logo}
             alt={name}
           />
