@@ -47,17 +47,19 @@ export default function Experience() {
               <h6 className="font-secondary text-md font-normal text-gray-400">
                 {experience.details}
               </h6>
-              <div className="inline-block whitespace-nowrap align-middle mt-4 items-start">
-                {experience.techStack.map((stack, index) => {
-                  return (
-                    <span
-                      className="rounded-full bg-gray-700 mr-2 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
-                      key={index}
-                    >
-                      {stack}
-                    </span>
-                  );
-                })}
+              <div className="mb-2">
+                <div className="align-middle items-start mt-2 space-y-2">
+                  {experience.techStack.map((stack, index) => {
+                    return (
+                      <span
+                        className="inline-block rounded-full bg-gray-700 mr-2 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                        key={index}
+                      >
+                        {stack}
+                      </span>
+                    );
+                  })}
+                </div>
               </div>
             </VerticalTimelineElement>
           );

@@ -16,7 +16,8 @@
         "techStack": [
             "Flutter",
             "NodeJS",
-            "DynamoDB"
+            "DynamoDB",
+            "AWS"
         ]
     }
 ]
