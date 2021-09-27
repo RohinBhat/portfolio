@@ -16,9 +16,9 @@ export default function Contact() {
             touch and answer your queries.
           </h1>
           <div className="mt-8 space-y-8 ">
-            <div className="mx-auto">
+            <div className="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
               <svg
-                className="w-16 h-16 mx-auto fill-current text-blue-500"
+                className="w-16 h-16 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 30 30"
               >
@@ -31,9 +31,9 @@ export default function Contact() {
                 +91 91464 58797
               </p>
             </div>
-            <div className="mx-auto">
+            <div className="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
               <svg
-                className="w-16 h-16 mx-auto fill-current text-blue-500"
+                className="w-16 h-16 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 30 30"
               >
@@ -46,9 +46,9 @@ export default function Contact() {
                 bhatrohin003@gmail.com
               </p>
             </div>
-            <div className="mx-auto">
+            <div className="mx-auto transition duration-500 ease-in-out transform hover:scale-105">
               <svg
-                className="w-16 h-16 mx-auto fill-current text-blue-500"
+                className="w-16 h-16 mx-auto fill-current text-blue-500 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
               >
