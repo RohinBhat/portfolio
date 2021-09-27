@@ -1,8 +1,35 @@
+import { NavItem } from "./NavItem";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import logo from "../../images/portfolio-logo-white.png";
+import { useState } from "react";
 
 export default function NavBar() {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(!clicked);
+  };
+
+  const navItems = [
+    {
+      title: "Home",
+      link: "/",
+    },
+    {
+      title: "About Me",
+      link: "/about",
+    },
+    {
+      title: "What I Do",
+      link: "/work",
+    },
+    {
+      title: "Resume",
+      link: "/resume",
+    },
+  ];
+
   return (
     <div className="sticky bg-gray-900 bg-opacity-80 z-50 top-0 pt-4 backdrop-filter backdrop-blur mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between px-8 sm:px-6">
       <NavLink to="/">
@@ -12,51 +39,27 @@ export default function NavBar() {
           alt="Logo"
         />
       </NavLink>
-      <button className="text-white inline-flex p-3 hover:bg-gray-800 rounded lg:hidden">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M4 6h16M4 12h16M4 18h16"
-          ></path>
-        </svg>
+      <button
+        className="text-white inline-flex p-3 hover:bg-gray-800 rounded h-10 w-10 justify-center align-middle lg:hidden"
+        onClick={handleClick}
+      >
+        <i className={clicked ? "fas fa-times fa-lg" : "fas fa-bars fa-lg"}></i>
       </button>
 
-      <div className="hidden w-full lg:w-auto lg:flex" id="navigation">
+      <div
+        className={
+          clicked
+            ? "transition ease-in-out duration-500 transform w-full lg:w-auto lg:flex"
+            : "transition ease-in-out duration-500 transform hidden w-full lg:w-auto lg:flex"
+        }
+      >
         <div className="flex flex-col lg:flex lg:flex-row">
-          <NavLink
-            to="/"
-            className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
-          >
-            About Me
-          </NavLink>
-          <NavLink
-            to="/work"
-            className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
-          >
-            What I do
-          </NavLink>
-          <NavLink
-            to="/resume"
-            className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-2 lg:my-auto"
-          >
-            Resume
-          </NavLink>
+          {navItems.map((item, index) => {
+            return <NavItem key={index} item={item} />;
+          })}
+
           <NavLink to="/contact">
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-2 mb-4 lg:mt-0 lg:mb-0">
+            <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 lg:mt-0 lg:mb-0">
               Contact Me ☎️
             </button>
           </NavLink>
