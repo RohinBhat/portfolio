@@ -31,7 +31,7 @@ export default function NavBar() {
   ];
 
   return (
-    <div className="sticky bg-gray-900 bg-opacity-80 z-50 top-0 pt-4 backdrop-filter backdrop-blur mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between px-8 sm:px-6">
+    <div className="sticky bg-gray-900 bg-opacity-80 z-50 top-0 py-4 backdrop-filter backdrop-blur mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between px-8 sm:px-6">
       <NavLink to="/">
         <img
           src={logo}

@@ -25,9 +25,11 @@ export default function NotFound() {
             <p>Illustration by Storyset</p>
           </a>
         </div>
-        <h3 className="mt-4 text-center font-primary font-black text-5xl text-white transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-          Looks like you've reached a Dead End!
-        </h3>
+        <div>
+          <h3 className="mt-4 text-center font-primary font-black text-5xl text-white transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+            Looks like you've reached a Dead End!
+          </h3>
+        </div>
         <p className="text-center mt-2 font-secondary font-normal text-xl text-gray-400">
           The page you are looking for does not exist. Please check the URL for
           spelling mistakes or capitalization and try again. If you are having
