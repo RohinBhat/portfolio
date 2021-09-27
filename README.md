@@ -1,4 +1,4 @@
-# This repository contains the source code to my Portfolio Website.
+# This repository contains the source code to my [Portfolio Website](http://rohinbhat.me/).
 
 Feel free to clone this repository to use it as a template for **your own Portfolio**.
 
@@ -10,7 +10,7 @@ To make your own portfolio website follow the instructions below:
 - :hammer: **Build** the website using `npm run build`
 - :rocket: **Deploy** the website using a service of your choice.
 
-That's all there is to it. You now have a personal portfolio website.
+That's all there is to it :heavy_check_mark:. You now have your very own personal portfolio website :v:.
 
 If you found this repository useful or inspirational, please consider :star2: **starring** and/or :fork_and_knife: **forking** this repository.
 
