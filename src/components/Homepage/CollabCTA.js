@@ -23,7 +23,7 @@ export default function CollabCTA() {
             </Link>
           </div>
 
-          <div className="absolute bg-gray-700 opacity-60 w-96 h-96 -top-12 -right-16 md:w-[800px] md:h-[600px] md:left-[45%] md:top-[-150%] rounded-full shadow-2xl z-0"></div>
+          <div className="absolute bg-gray-700 opacity-60 w-80 h-80 sm:w-96 sm:h-96 -top-12 -right-16 md:w-[800px] md:h-[600px] md:left-[45%] md:top-[-150%] rounded-full shadow-2xl z-0"></div>
         </div>
       </div>
     </div>

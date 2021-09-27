@@ -6,7 +6,7 @@ import React from "react";
 export default function AboutMe() {
   return (
     <div>
-      <h1 className="text-center mt-10 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+      <h1 className="text-center mt-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
         Bio
       </h1>
       <p className="mx-auto w-full lg:w-3/4 mt-4 font-secondary font-normal text-gray-400 text-xl text-center">

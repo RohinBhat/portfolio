@@ -35,7 +35,7 @@ export default function NavBar() {
       <NavLink to="/">
         <img
           src={logo}
-          className="max-h-16 md:max-h-20 xl:max-h-24 transition duration-500 ease-in-out transform hover:scale-105"
+          className="max-h-12 sm:max-h-16 md:max-h-20 xl:max-h-24 transition duration-500 ease-in-out transform hover:scale-105"
           alt="Logo"
         />
       </NavLink>

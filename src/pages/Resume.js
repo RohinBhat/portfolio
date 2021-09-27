@@ -7,7 +7,7 @@ export default function Resume() {
     <div className="shadow-md max-w-5xl mx-auto mt-16 overflow-hidden rounded-lg divide-gray-800">
       <div className="h-full">
         <div className="bg-gray-800 py-6 px-6 flex justify-between items-center">
-          <h1 className="text-gray-300 text-xl font-semibold font-secondary">
+          <h1 className="text-gray-300 text-md md:text-xl font-semibold font-secondary">
             Resume | Rohin Bhat
           </h1>
           <a

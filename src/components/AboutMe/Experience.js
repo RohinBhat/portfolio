@@ -11,7 +11,7 @@ import experienceData from "../../data/experience.json";
 export default function Experience() {
   return (
     <div className="mb-8 mt-20">
-      <h1 className="text-center mt-2 mb-10 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+      <h1 className="text-center mt-2 mb-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
         Experience
       </h1>
       <VerticalTimeline>

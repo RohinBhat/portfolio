@@ -17,7 +17,7 @@ export default function Recommendations() {
 
   return (
     <div className="mt-20 mx-3">
-      <h1 className="text-center font-secondary font-semibold text-2xl capitalize text-blue-500">
+      <h1 className="text-center font-secondary font-semibold text-xl md:text-2xl capitalize text-blue-500">
         WHAT MY SENIORS SAY
       </h1>
       <a
@@ -25,7 +25,7 @@ export default function Recommendations() {
         target="_blank"
         rel="noreferrer"
       >
-        <h1 className="text-center mt-2 font-primary font-black text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+        <h1 className="text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
           Recommendations
         </h1>
       </a>
