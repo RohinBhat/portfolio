@@ -3,8 +3,8 @@ import React from "react";
 export default function WhatIDo() {
   return (
     <div className="my-6">
-      <div className="rounded-lg bg-gray-800 flex flex-col md:flex-row">
-        <div className="p-8 w-full md:w-1/2 border border-l-0 border-t-0 border-r-0 border-b-2 md:border-b-0 md:border-r-2 border-gray-700 border-dashed">
+      <div className="rounded-lg bg-gray-800 flex flex-col lg:flex-row">
+        <div className="p-8 w-full lg:w-1/2 border border-l-0 border-t-0 border-r-0 border-b-2 lg:border-b-0 lg:border-r-2 border-gray-700 border-dashed">
           <div>
             <svg
               className="h-28 w-28 fill-current text-blue-500 mx-auto"
@@ -48,7 +48,7 @@ export default function WhatIDo() {
             </p>
           </div>
         </div>
-        <div className="p-8 w-full md:w-1/2">
+        <div className="p-8 w-full lg:w-1/2">
           <svg
             className="h-28 w-28 fill-current text-blue-500 mx-auto"
             xmlns="http://www.w3.org/2000/svg"
