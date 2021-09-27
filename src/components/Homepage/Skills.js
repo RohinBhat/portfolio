@@ -10,9 +10,11 @@ export default function Skills() {
         <h1 className="text-center font-secondary font-semibold text-xl md:text-2xl capitalize text-blue-500">
           WHAT I KNOW
         </h1>
-        <h1 className="text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-          Skills
-        </h1>
+        <div>
+          <h1 className="text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+            Skills
+          </h1>
+        </div>
       </Fade>
       <Fade up>
         <div className="mt-8 py-4 px-4 bg-gray-800 items-center justify-center shadow-2xl rounded-md">

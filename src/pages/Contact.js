@@ -6,9 +6,11 @@ export default function Contact() {
     <div className="overflow-hidden bg-gray-800 rounded-lg shadow-md items-center w-auto lg:w-4/6 mx-auto py-8 my-10">
       <Fade up cascade>
         <div className="w-3/4 md:w-1/2 mx-auto">
-          <h1 className="text-center font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-            Let's Talk
-          </h1>
+          <div>
+            <h1 className="text-center font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+              Let's Talk
+            </h1>
+          </div>
           <h1 className="text-center mt-4 font-secondary font-medium text-lg text-gray-400">
             While I am good with smoke signals, there are simpler ways to get in
             touch and answer your queries.

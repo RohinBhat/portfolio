@@ -7,9 +7,11 @@ export default function Organizations() {
   return (
     <div className="mb-8 mt-20">
       <Fade up>
-        <h1 className="text-center mt-2 mb-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-          Organizations
-        </h1>
+        <div>
+          <h1 className="text-center mt-2 mb-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
+            Organizations
+          </h1>
+        </div>
       </Fade>
       <Fade up>
         <div className="flex flex-wrap w-full">
