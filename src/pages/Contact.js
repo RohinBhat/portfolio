@@ -55,10 +55,10 @@ export default function Contact() {
                 <path d="M 12 1 C 8.686 1 6 3.686 6 7 C 6 11.286 12 18 12 18 C 12 18 18 11.286 18 7 C 18 3.686 15.314 1 12 1 z M 12 4.8574219 C 13.184 4.8574219 14.142578 5.816 14.142578 7 C 14.142578 8.183 13.183 9.1425781 12 9.1425781 C 10.817 9.1425781 9.8574219 8.184 9.8574219 7 C 9.8574219 5.816 10.816 4.8574219 12 4.8574219 z"></path>
               </svg>
               <p className="text-center text-gray-300 font-primary font-bold text-xl">
-                Phone Me:
+                Meet Me:
               </p>
               <p className="text-center text-gray-400 font-secondary font-medium text-lg">
-                +91 91464 58797
+                Aurangabad, Maharashtra
               </p>
             </div>
           </div>
