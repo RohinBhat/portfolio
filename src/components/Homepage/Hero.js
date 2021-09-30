@@ -42,12 +42,12 @@ export default function Hero() {
           </h1>
           <div className="flex flex-col lg:flex-row lg:justify-around">
             <Link to="/resume">
-              <button className="w-full mt-8 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:w-auto">
+              <button className="w-full mt-8 font-secondary bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:w-auto">
                 See my Resume
               </button>
             </Link>
             <Link to="/contact">
-              <button className="w-full mt-4 bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8 lg:w-auto">
+              <button className="w-full mt-4 font-secondary bg-transparent transition duration-500 ease-in-out hover:bg-blue-500 text-blue-500 font-semibold hover:text-white py-4 px-6 border border-blue-500 hover:border-transparent rounded lg:mt-8 lg:w-auto">
                 Hire me now
               </button>
             </Link>

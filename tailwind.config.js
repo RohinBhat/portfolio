@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     fontFamily: {
       primary: ["IBM Plex Mono", "Times", "serif"],
-      secondary: ["Poppins", "Helvetica", "sans-serif"],
+      secondary: ["Space Grotesk", "Helvetica", "sans-serif"],
     },
   },
   variants: {
