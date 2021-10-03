@@ -1,86 +1,86 @@
 [
     {
         "name": "C++",
-        "url": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+        "url": "https://img.icons8.com/color/192/000000/c-plus-plus-logo.png"
     },
     {
         "name": "Java",
-        "url": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png"
+        "url": "https://img.icons8.com/color/192/000000/java-coffee-cup-logo.png"
     },
     {
         "name": "Python",
-        "url": "https://img.icons8.com/color/48/000000/python.png"
+        "url": "https://img.icons8.com/color/192/000000/python.png"
     },
     {
         "name": "Dart",
-        "url": "https://img.icons8.com/color/48/000000/dart.png"
+        "url": "https://img.icons8.com/color/192/000000/dart.png"
     },
     {
         "name": "Kotlin",
-        "url": "https://img.icons8.com/color/48/000000/kotlin.png"
+        "url": "https://img.icons8.com/color/192/000000/kotlin.png"
     },
     {
         "name": "HTML",
-        "url": "https://img.icons8.com/color/48/000000/html-5.png"
+        "url": "https://img.icons8.com/color/192/000000/html-5.png"
     },
     {
         "name": "CSS",
-        "url": "https://img.icons8.com/color/48/000000/css3.png"
+        "url": "https://img.icons8.com/color/192/000000/css3.png"
     },
     {
         "name": "JavaScript",
-        "url": "https://img.icons8.com/color/48/000000/javascript.png"
+        "url": "https://img.icons8.com/color/192/000000/javascript.png"
     },
     {
         "name": "MySQL",
-        "url": "https://img.icons8.com/fluency/48/000000/mysql-logo.png"
+        "url": "https://img.icons8.com/fluency/192/000000/mysql-logo.png"
     },
     {
         "name": "MongoDB",
-        "url": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "url": "https://img.icons8.com/color/192/000000/mongodb.png"
     },
     {
         "name": "Firebase",
-        "url": "https://img.icons8.com/color/48/000000/firebase.png"
+        "url": "https://img.icons8.com/color/192/000000/firebase.png"
     },
     {
         "name": "Flutter",
-        "url": "https://img.icons8.com/color/48/000000/flutter.png"
+        "url": "https://img.icons8.com/color/192/000000/flutter.png"
     },
     {
         "name": "React Native",
-        "url": "https://img.icons8.com/color/48/000000/react-native.png"
+        "url": "https://img.icons8.com/color/192/000000/react-native.png"
     },
     {
         "name": "Android",
-        "url": "https://img.icons8.com/color/48/000000/android-studio--v3.png"
+        "url": "https://img.icons8.com/color/192/000000/android-studio--v3.png"
     },
     {
         "name": "React",
-        "url": "https://img.icons8.com/color/48/000000/react-native.png"
+        "url": "https://img.icons8.com/color/192/000000/react-native.png"
     },
     {
         "name": "Photoshop",
-        "url": "https://img.icons8.com/color/48/000000/adobe-photoshop.png"
+        "url": "https://img.icons8.com/color/192/000000/adobe-photoshop.png"
     },
     {
         "name": "Illustrator",
-        "url": "https://img.icons8.com/color/48/000000/adobe-illustrator.png"
+        "url": "https://img.icons8.com/color/192/000000/adobe-illustrator.png"
     },
     {
         "name": "Premiere Pro",
-        "url": "https://img.icons8.com/color/48/000000/adobe-premiere-pro.png"
+        "url": "https://img.icons8.com/color/192/000000/adobe-premiere-pro.png"
     },
     {
         "name": "Adobe XD",
-        "url": "https://img.icons8.com/color/48/000000/adobe-xd.png"
+        "url": "https://img.icons8.com/color/192/000000/adobe-xd.png"
     },
     {
         "name": "Figma",
-        "url": "https://img.icons8.com/color/48/000000/figma.png"
+        "url": "https://img.icons8.com/color/192/000000/figma.png"
     },
     {
         "name": "Git",
-        "url": "https://img.icons8.com/color/48/000000/git.png"
+        "url": "https://img.icons8.com/color/192/000000/git.png"
     }
 ]
