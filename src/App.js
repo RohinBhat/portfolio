@@ -9,34 +9,37 @@ import Homepage from "./pages/Homepage";
 import NavBar from "./components/Shared/NavBar";
 import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
+import ScrollToTop from "./components/Shared/ScrollToTop";
 import WhatIDo from "./pages/WhatIDo";
 
 function App() {
   return (
     <Router>
       <div className="w-11/12 md:w-3/4 mx-auto">
-        <NavBar />
-        <Switch>
-          <Route exact path="/">
-            <Homepage />
-          </Route>
-          <Route exact path="/resume">
-            <Resume />
-          </Route>
-          <Route exact path="/about">
-            <AboutMe />
-          </Route>
-          <Route exact path="/work">
-            <WhatIDo />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route path="">
-            <NotFound />
-          </Route>
-        </Switch>
-        <Footer />
+        <ScrollToTop>
+          <NavBar />
+          <Switch>
+            <Route exact path="/">
+              <Homepage />
+            </Route>
+            <Route exact path="/resume">
+              <Resume />
+            </Route>
+            <Route exact path="/about">
+              <AboutMe />
+            </Route>
+            <Route exact path="/work">
+              <WhatIDo />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+            <Route path="">
+              <NotFound />
+            </Route>
+          </Switch>
+          <Footer />
+        </ScrollToTop>
       </div>
     </Router>
   );
