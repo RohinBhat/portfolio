@@ -1,4 +1,3 @@
-import { NavItem } from "./NavItem";
 import { NavLink } from "react-router-dom";
 import React from "react";
 import logo from "../../images/portfolio-logo-white.png";
@@ -55,10 +54,19 @@ export default function NavBar() {
       >
         <div className="flex flex-col lg:flex lg:flex-row">
           {navItems.map((item, index) => {
-            return <NavItem key={index} item={item} />;
+            return (
+              <NavLink
+                key={index}
+                to={item.link}
+                onClick={handleClick}
+                className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-6 lg:my-auto"
+              >
+                {item.title}
+              </NavLink>
+            );
           })}
 
-          <NavLink to="/contact">
+          <NavLink to="/contact" onClick={handleClick}>
             <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 lg:mt-0 lg:mb-0">
               Contact Me ☎️
             </button>
