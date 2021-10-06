@@ -3,6 +3,7 @@
         "date": "SEPTEMBER 2021 - PRESENT",
         "title": "RobIN Automotives",
         "subtitle": "Web and Mobile App Developer",
+        "website": "https://robinautomotives.co.in/",
         "details": "Worked on developing a mobile app for Robust Intelligent Network's personalised smart Electic Vehicle for enhancing the rider's experience.",
         "techStack": [
             "React",
@@ -13,6 +14,7 @@
         "date": "AUGUST 2021 - PRESENT",
         "title": "Manastik",
         "subtitle": "Software Engineer Intern",
+        "website": "https://manastik.com/",
         "details": "Worked on the developing Dementia Active Diagnosis and Tracking (DADT) mobile app.",
         "techStack": [
             "Flutter",

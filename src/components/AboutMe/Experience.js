@@ -43,9 +43,16 @@ export default function Experience() {
                 </svg>
               }
             >
-              <h3 className="mb-2 font-primary text-xl font-bold text-blue-500">
-                {experience.title}
-              </h3>
+              <div className="flex flex-row justify-between gap-8">
+                <h3 className="mb-2 font-primary text-xl font-bold text-blue-500">
+                  {experience.title}
+                </h3>
+                {experience.website ? (
+                  <a href={experience.website} target="_blank" rel="noreferrer">
+                    <i className="fas fa-external-link-alt fa-md my-auto text-gray-400"></i>
+                  </a>
+                ) : null}
+              </div>
               <h4 className="mb-4 font-secondary text-md font-normal text-white">
                 {experience.subtitle}
               </h4>
