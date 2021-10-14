@@ -6,7 +6,6 @@ import Skills from "../components/Homepage/Skills";
 
 // import Recommendations from "../components/Homepage/Recommendations";
 
-
 export default function Homepage() {
   return (
     <div className="container">
