@@ -30,10 +30,12 @@ export default function NotFound() {
             Looks like you've reached a Dead End!
           </h3>
         </div>
-        <p className="text-center mt-2 font-secondary font-normal text-xl text-gray-400">
+        <p className="text-center mt-4 font-secondary font-normal text-xl text-gray-400">
           The page you are looking for does not exist. Please check the URL for
-          spelling mistakes or capitalization and try again. If you are having
-          trouble locating your destination, try to visit the
+          spelling mistakes or capitalization and try again.
+        </p>
+        <p className="text-center font-secondary font-normal text-xl text-gray-400">
+          If you are having trouble locating your destination, try to visit the
           <span className="text-blue-500 hover:text-blue-700">
             <Link to="/"> Home Page</Link>
           </span>
