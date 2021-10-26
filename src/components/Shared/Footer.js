@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-t border-gray-800 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
+    <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
       <div className="flex space-x-8 order-1 md:order-2">
         <a href="https://github.com/RohinBhat" target="_blank" rel="noreferrer">
           <svg
