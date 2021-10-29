@@ -60,7 +60,15 @@
         "url": "https://img.icons8.com/color/192/000000/android-studio--v3.png"
     },
     {
-        "name": "React",
+        "name": "Node JS",
+        "url": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+    },
+    {
+        "name": "Express JS",
+        "url": "https://symbols.getvecta.com/stencil_79/88_expressjs-icon.daaf10a3ec.svg"
+    },
+    {
+        "name": "React JS",
         "url": "https://img.icons8.com/color/192/000000/react-native.png"
     },
     {
