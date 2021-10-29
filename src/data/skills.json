@@ -44,10 +44,6 @@
         "url": "https://img.icons8.com/color/192/000000/firebase.png"
     },
     {
-        "name": "Hive",
-        "url": "https://avatars.githubusercontent.com/u/55202745?s=500&v=4"
-    },
-    {
         "name": "Flutter",
         "url": "https://img.icons8.com/color/192/000000/flutter.png"
     },
@@ -70,6 +66,10 @@
     {
         "name": "React JS",
         "url": "https://img.icons8.com/color/192/000000/react-native.png"
+    },
+    {
+        "name": "Tailwind",
+        "url": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg"
     },
     {
         "name": "Photoshop",
