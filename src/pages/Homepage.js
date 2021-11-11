@@ -2,9 +2,8 @@ import CollabCTA from "../components/Homepage/CollabCTA";
 import Hero from "../components/Homepage/Hero";
 import Projects from "../components/Homepage/Projects";
 import React from "react";
+import Recommendations from "../components/Homepage/Recommendations";
 import Skills from "../components/Homepage/Skills";
-
-// import Recommendations from "../components/Homepage/Recommendations";
 
 export default function Homepage() {
   return (
@@ -12,7 +11,7 @@ export default function Homepage() {
       <Hero />
       <Skills />
       <Projects />
-      {/* <Recommendations /> */}
+      <Recommendations />
       <CollabCTA />
     </div>
   );
