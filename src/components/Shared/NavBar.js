@@ -30,7 +30,7 @@ export default function NavBar() {
   ];
 
   return (
-    <div className="sticky bg-gray-900 bg-opacity-80 z-50 top-0 py-4 backdrop-filter backdrop-blur mx-auto flex flex-wrap lg:flex-nowrap items-center justify-between px-8 sm:px-6">
+    <div className="sticky bg-gray-900 bg-opacity-80 z-50 top-0 py-4 backdrop-filter backdrop-blur mx-auto flex flex-wrap xl:flex-nowrap items-center justify-between px-8 sm:px-6">
       <NavLink to="/">
         <img
           src={logo}
@@ -39,7 +39,7 @@ export default function NavBar() {
         />
       </NavLink>
       <button
-        className="text-white inline-flex p-3 hover:bg-gray-800 rounded h-10 w-10 justify-center align-middle lg:hidden"
+        className="text-white inline-flex p-3 hover:bg-gray-800 rounded h-10 w-10 justify-center align-middle xl:hidden"
         onClick={handleClick}
       >
         <i className={clicked ? "fas fa-times fa-lg" : "fas fa-bars fa-lg"}></i>
@@ -48,18 +48,18 @@ export default function NavBar() {
       <div
         className={
           clicked
-            ? "transition ease-in-out duration-500 transform w-full lg:w-auto lg:flex"
-            : "transition ease-in-out duration-500 transform hidden w-full lg:w-auto lg:flex"
+            ? "transition ease-in-out duration-500 transform w-full xl:w-auto xl:flex"
+            : "transition ease-in-out duration-500 transform hidden w-full xl:w-auto xl:flex"
         }
       >
-        <div className="flex flex-col lg:flex lg:flex-row">
+        <div className="flex flex-col xl:flex xl:flex-row">
           {navItems.map((item, index) => {
             return (
               <NavLink
                 key={index}
                 to={item.link}
                 onClick={handleClick}
-                className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-6 lg:my-auto"
+                className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-6 xl:my-auto"
               >
                 {item.title}
               </NavLink>
@@ -67,7 +67,7 @@ export default function NavBar() {
           })}
 
           <NavLink to="/contact" onClick={handleClick}>
-            <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 lg:mt-0 lg:mb-0">
+            <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 xl:mt-0 xl:mb-0">
               Contact Me ☎️
             </button>
           </NavLink>

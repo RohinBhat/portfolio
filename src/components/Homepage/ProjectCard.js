@@ -5,8 +5,8 @@ export const ProjectCard = (props) => {
     props.project;
 
   return (
-    <div className="mx-auto pt-4 max-w-lg mt-4">
-      <div className="flex flex-col h-full bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
+    <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4">
+      <div className="flex flex-col h-full mx-3 bg-gray-800 shadow-2xl rounded-lg transition ease-in-out transform hover:scale-105 hover:-translate-y-1 duration-300">
         <img
           src={image}
           alt={name}
@@ -20,11 +20,12 @@ export const ProjectCard = (props) => {
             {description}
           </p>
         </div>
-        <div className="space-y-2 mb-6 text-center">
+        <div className="flex flex-col flex-grow"></div>
+        <div className="space-y-2 mx-2 mb-6 text-center justify-center">
           {techStack.map((stack, index) => {
             return (
               <span
-                className="inline-block rounded-full bg-gray-700 mr-2 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
+                className="inline-block rounded-full bg-gray-700 mx-1 my-auto font-secondary font-normal text-gray-300 text-center px-4 py-1 text-sm"
                 key={index}
               >
                 {stack}
@@ -32,7 +33,7 @@ export const ProjectCard = (props) => {
             );
           })}
         </div>
-        <div className="flex flex-col flex-grow border border-t-0 border-r-0 border-l-0 border-gray-700 mx-6"></div>
+        <div className="flex flex-col border border-t-0 border-r-0 border-l-0 border-gray-700 mx-6"></div>
         <div className="flex px-8 py-4 justify-around">
           {code ? (
             <a href={code} target="_blank" rel="noreferrer">

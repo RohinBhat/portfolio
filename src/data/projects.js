@@ -1,3 +1,4 @@
+import chatapp from "../images/chat-app.png";
 import fastnfresh from "../images/fast-n-fresh.jpg";
 import noteitdown from "../images/note-it-down.jpg";
 import radiance from "../images/radiance21.jpg";
@@ -22,6 +23,22 @@ export const projectsData = [
     deployment:
       "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
     techStack: ["Flutter", "NodeJS", "MongoDB"],
+  },
+  {
+    name: "Chat App",
+    description:
+      "A room / group chat app that can handle bi-directional conversations. Has a facility to share location. Can handle multiple rooms at a time.",
+    image: chatapp,
+    code: "https://github.com/RohinBhat/node-chat-app",
+    deployment: "https://baron-chat-app.herokuapp.com/",
+    techStack: [
+      "NodeJS",
+      "ExpressJS",
+      "Socket.io",
+      "HTML",
+      "CSS",
+      "Handlebars",
+    ],
   },
   {
     name: "Note It Down",

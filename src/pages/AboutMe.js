@@ -1,3 +1,4 @@
+import AllProjects from "../components/AboutMe/AllProjects";
 import Education from "../components/AboutMe/Education";
 import Experience from "../components/AboutMe/Experience";
 import Fade from "react-reveal/Fade";
@@ -34,6 +35,7 @@ export default function AboutMe() {
       </Fade>
       <Education />
       <Experience />
+      <AllProjects />
       <Organizations />
     </div>
   );
