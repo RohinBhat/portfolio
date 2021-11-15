@@ -1,4 +1,5 @@
 import chatapp from "../images/chat-app.png";
+import defaultImage from "../images/default-project.png";
 import fastnfresh from "../images/fast-n-fresh.jpg";
 import noteitdown from "../images/note-it-down.jpg";
 import radiance from "../images/radiance21.jpg";
@@ -39,6 +40,15 @@ export const projectsData = [
       "CSS",
       "Handlebars",
     ],
+  },
+  {
+    name: "Task Manager API",
+    description:
+      "A Task Manager REST API with basic CRUD operations for users and their tasks created with Node JS. Follows Model-View-Controller (MVC) Architecture",
+    image: defaultImage,
+    code: "https://github.com/RohinBhat/task-manager-api",
+    deployment: "https://baron-task-manager-api.herokuapp.com/",
+    techStack: ["NodeJS", "ExpressJS", "MongoDB"],
   },
   {
     name: "Note It Down",
