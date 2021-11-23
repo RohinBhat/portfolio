@@ -11,16 +11,27 @@
         ]
     },
     {
-        "date": "AUGUST 2021 - PRESENT",
+        "date": "AUGUST 2021 - NOVEMBER 2021",
         "title": "Manastik",
         "subtitle": "Software Engineer Intern",
         "website": "https://manastik.com/",
-        "details": "Worked on the developing Dementia Active Diagnosis and Tracking (DADT) mobile app.",
+        "details": "Worked on the developing Dementia Active Diagnosis and Tracking (DADT) mobile app based on the Hindi Mental State Examination (HMSE).",
         "techStack": [
             "Flutter",
             "NodeJS",
             "DynamoDB",
             "AWS"
+        ]
+    },
+    {
+        "date": "NOVEMBER 2021 - PRESENT",
+        "title": "Growlance",
+        "subtitle": "Backend Development Intern",
+        "website": "https://www.growlance.club/",
+        "details": "Worked on developing backend services for the influencer management platform",
+        "techStack": [
+            "NodeJS",
+            "Firebase Firestore"
         ]
     }
 ]
