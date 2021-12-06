@@ -14,7 +14,6 @@ const useFetch = ({ onSuccess, onError }) => {
 
     axios
       .request({
-        baseURL: process.env.REACT_APP_API_URL,
         method,
         url,
         data,

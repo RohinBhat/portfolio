@@ -108,12 +108,10 @@ export default function Contact() {
 
     if (isValid) {
       sendMessage({
-        url: "/messages",
+        url: "https://rohin-portfolio-api.herokuapp.com/messages",
         method: "POST",
         data: userData,
       });
-    } else {
-      console.log(error);
     }
   };
 
