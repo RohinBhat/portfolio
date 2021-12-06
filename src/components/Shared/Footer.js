@@ -65,7 +65,11 @@ export default function Footer() {
       </div>
       <div className="mt-4 order-2 md:order-1 md:my-auto ">
         <p className="font-secondary font-semibold text-gray-400 text-md ">
-          Made with ❤️ by Rohin Bhat.
+          Made with{" "}
+          <span className="font-thin" role="img" aria-label="emoji">
+            ❤️
+          </span>{" "}
+          by Rohin Bhat.
         </p>
       </div>
     </footer>

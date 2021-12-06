@@ -68,7 +68,10 @@ export default function NavBar() {
 
           <NavLink to="/contact" onClick={handleClick}>
             <button className="w-full bg-blue-500 hover:bg-blue-700 text-white font-medium text-center transition duration-500 ease-in-out py-3 px-4 rounded font-primary text-lg mt-6 mb-4 xl:mt-0 xl:mb-0">
-              Contact Me ☎️
+              Contact Me{" "}
+              <span className="font-thin" role="img" aria-label="emoji">
+                ☎️
+              </span>
             </button>
           </NavLink>
         </div>

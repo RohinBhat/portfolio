@@ -1,7 +1,7 @@
 import Fade from "react-reveal/Fade";
 import React from "react";
 import { RecommendationCard } from "./RecommendationCard";
-import recommendationsData from "../../data/recommendations.json";
+import { recommendationsData } from "../../data/recommendations";
 import { useState } from "react";
 
 export default function Recommendations() {

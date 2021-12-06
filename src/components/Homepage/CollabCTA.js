@@ -20,7 +20,12 @@ export default function CollabCTA() {
             <div className="pt-8 md:pt-0 justify-center lg:ml-auto z-10">
               <Link to="/contact">
                 <button className="flex items-center px-8 py-4 text-center font-primary font-semibold text-lg text-white bg-blue-500 font-display rounded-md transition duration-500 hover:bg-blue-700 hover:text-white">
-                  <p>☕ Let's Talk</p>
+                  <p>
+                    <span className="font-thin" role="img" aria-label="emoji">
+                      ☕
+                    </span>{" "}
+                    Let's Talk
+                  </p>
                 </button>
               </Link>
             </div>

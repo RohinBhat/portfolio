@@ -22,16 +22,5 @@
             "DynamoDB",
             "AWS"
         ]
-    },
-    {
-        "date": "NOVEMBER 2021 - PRESENT",
-        "title": "Growlance",
-        "subtitle": "Backend Development Intern",
-        "website": "https://www.growlance.club/",
-        "details": "Worked on developing backend services for the influencer management platform",
-        "techStack": [
-            "NodeJS",
-            "Firebase Firestore"
-        ]
     }
 ]
