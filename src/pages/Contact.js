@@ -6,7 +6,7 @@ import { useFetch } from "../hooks/useFetch";
 
 export default function Contact() {
   const emailRegex = RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
-  const phoneRegex = RegExp(/^[0-9]{10}$/);
+  const phoneRegex = RegExp(/^(\+\d{1,3}[- ]?)?\d{10}$/);
 
   const [userData, setUserData] = useState({
     name: "",
