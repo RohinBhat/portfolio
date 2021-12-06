@@ -108,7 +108,7 @@ export default function Contact() {
 
     if (isValid) {
       sendMessage({
-        url: "/messages",
+        url: process.env.REACT_APP_API_URL + "/messages",
         method: "POST",
         data: userData,
       });
