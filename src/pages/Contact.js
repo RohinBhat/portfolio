@@ -108,12 +108,10 @@ export default function Contact() {
 
     if (isValid) {
       sendMessage({
-        url: process.env.REACT_APP_API_URL + "/messages",
+        url: `${process.env.REACT_APP_API_URL}/messages`,
         method: "POST",
         data: userData,
       });
-    } else {
-      console.log(error);
     }
   };
 
