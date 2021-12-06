@@ -107,8 +107,6 @@ export default function Contact() {
     e.preventDefault();
     const isValid = validate();
     if (isValid) {
-      console.log("here");
-      console.log(isValid);
       sendMessage({
         url: `${process.env.REACT_APP_API_URL}/messages`,
         method: "POST",
