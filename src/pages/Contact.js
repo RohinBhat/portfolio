@@ -108,7 +108,7 @@ export default function Contact() {
     const isValid = validate();
     if (isValid) {
       sendMessage({
-        url: `${process.env.REACT_APP_API_URL}/messages`,
+        url: "https://rohin-portfolio-api.herokuapp.com/messages",
         method: "POST",
         data: userData,
       });
