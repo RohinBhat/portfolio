@@ -77,7 +77,7 @@ export default function Messages() {
           {messages?.map((message, index) => {
             return (
               <div className="flex justify-center" key={index}>
-                <div className="w-3/4 p-8 bg-gray-800 rounded-md mt-8">
+                <div className="w-full md:w-3/4 p-8 bg-gray-800 rounded-md mt-8">
                   <div className="flex space-x-8">
                     <div className="flex-grow">
                       <p className="text-xl text-gray-300 font-secondary font-bold">
@@ -94,12 +94,20 @@ export default function Messages() {
                       </p>
                     </div>
                     <i
-                      className="h-full my-auto fas fa-trash text-red-500 text-2xl"
+                      className="hidden sm:block h-full my-auto fas fa-trash text-red-500 text-2xl"
                       onClick={() => {
                         handleDelete(message._id);
                       }}
                     ></i>
                   </div>
+                  <p
+                    className="block sm:hidden text-red-500 text-center mt-6 text-lg font-secondary font-medium cursor-pointer"
+                    onClick={() => {
+                      handleDelete(message._id);
+                    }}
+                  >
+                    Delete
+                  </p>
                 </div>
               </div>
             );
