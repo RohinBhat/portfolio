@@ -7,6 +7,7 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Footer from "./components/Shared/Footer";
 import Homepage from "./pages/Homepage";
+import Messages from "./pages/Messages";
 import NavBar from "./components/Shared/NavBar";
 import NotFound from "./pages/NotFound";
 import Resume from "./pages/Resume";
@@ -47,6 +48,9 @@ function App() {
             </Route>
             <Route exact path="/contact">
               <Contact />
+            </Route>
+            <Route exact path="/messages">
+              <Messages />
             </Route>
             <Route path="">
               <NotFound />

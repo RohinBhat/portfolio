@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import Fade from "react-reveal/Fade";
+import axios from "axios";
 import { toast } from "react-toastify";
-import { useFetch } from "../hooks/useFetch";
 
 export default function Contact() {
   const emailRegex = RegExp(/^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/);
@@ -22,19 +22,16 @@ export default function Contact() {
     messageError: "",
   });
 
-  // eslint-disable-next-line
-  const [sendMessage, _] = useFetch({
-    onError: (e) => {
-      if (e instanceof Array) {
-        e.forEach((e) => {
-          toast.error(e.message || "Something Went Wrong", {});
-        });
-      }
-    },
-    onSuccess: () => {
-      toast.success("Message Sent Successfully");
-    },
-  });
+  const sendMessage = async () => {
+    await axios
+      .post("https://rohin-portfolio-api.herokuapp.com/messages", userData)
+      .then((res) => {
+        toast.success("Message sent successfully");
+      })
+      .catch((err) => {
+        toast.error("Something went wrong");
+      });
+  };
 
   const validate = () => {
     let isValid = true;
