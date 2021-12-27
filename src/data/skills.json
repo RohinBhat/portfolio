@@ -61,7 +61,7 @@
     },
     {
         "name": "Express JS",
-        "url": "https://symbols.getvecta.com/stencil_79/88_expressjs-icon.daaf10a3ec.svg"
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
     },
     {
         "name": "React JS",
@@ -69,7 +69,7 @@
     },
     {
         "name": "Tailwind",
-        "url": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg"
+        "url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
     },
     {
         "name": "Photoshop",
