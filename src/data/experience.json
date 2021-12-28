@@ -1,5 +1,16 @@
 [
     {
+        "date": "DECEMBER 2021 - PRESENT",
+        "title": "Pingolearn",
+        "subtitle": "Mobile App Development Intern",
+        "website": "https://pingolearn.com/",
+        "details": "Created assessments for hiring candidates. Worked on developing and maintaining the Pingolearn app in Flutter.",
+        "techStack": [
+            "Flutter",
+            "Firebase"
+        ]
+    },
+    {
         "date": "SEPTEMBER 2021 - PRESENT",
         "title": "RobIN Automotives",
         "subtitle": "Web and Mobile App Developer",
