@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
-      <div className="flex space-x-8 order-1 md:order-2">
+      <div className="flex space-x-4 md:space-x-8 order-1 md:order-2">
         <a href="https://github.com/RohinBhat" target="_blank" rel="noreferrer">
           <svg
             className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
@@ -77,7 +77,7 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-      <div className="mt-4 order-2 md:order-1 md:my-auto ">
+      <div className="mt-4 order-2 md:order-1 md:my-auto md: mr-4">
         <p className="font-secondary font-semibold text-gray-400 text-md ">
           Made with{" "}
           <span className="font-thin" role="img" aria-label="emoji">
