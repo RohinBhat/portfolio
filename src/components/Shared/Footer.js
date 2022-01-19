@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex space-x-4 md:space-x-8 order-1 md:order-2">
         <a href="https://github.com/RohinBhat" target="_blank" rel="noreferrer">
           <svg
-            className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
+            className="circled-icon"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 50 50"
             width="50px"
@@ -21,7 +21,7 @@ export default function Footer() {
           rel="noreferrer"
         >
           <svg
-            className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
+            className="circled-icon"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 30 30"
             width="30px"
@@ -36,7 +36,7 @@ export default function Footer() {
           rel="noreferrer"
         >
           <svg
-            className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
+            className="circled-icon"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             width="30px"
@@ -51,7 +51,7 @@ export default function Footer() {
           rel="noreferrer"
         >
           <svg
-            className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
+            className="circled-icon"
             xmlns="http://www.w3.org/2000/svg"
             width="24px"
             height="24px"
@@ -66,7 +66,7 @@ export default function Footer() {
           rel="noreferrer"
         >
           <svg
-            className="h-10 w-10 fill-current text-gray-400 hover:text-blue-500 border p-2 border-gray-400 rounded-full hover:border-blue-500"
+            className="circled-icon"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             height="24px"

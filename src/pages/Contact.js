@@ -117,9 +117,7 @@ export default function Contact() {
       <Fade up cascade>
         <div className="w-5/6 mx-auto">
           <div>
-            <h1 className="text-center font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-              Let's Talk
-            </h1>
+            <h1 className="heading-main">Let's Talk</h1>
           </div>
           <h1 className="text-center mt-4 font-secondary font-medium text-lg text-gray-400">
             While I am good with smoke signals, there are simpler ways to get in

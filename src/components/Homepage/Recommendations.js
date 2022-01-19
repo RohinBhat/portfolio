@@ -19,18 +19,14 @@ export default function Recommendations() {
   return (
     <div className="mt-20 mx-3">
       <Fade up>
-        <h1 className="text-center font-secondary font-semibold text-xl md:text-2xl capitalize text-blue-500">
-          WHAT MY SENIORS SAY
-        </h1>
+        <h1 className="heading-tagline">WHAT MY SENIORS SAY</h1>
         <div>
           <a
             href="https://www.linkedin.com/in/rohin-bhat-a2a9a5192/"
             target="_blank"
             rel="noreferrer"
           >
-            <h1 className="text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-              Recommendations
-            </h1>
+            <h1 className="heading-main">Recommendations</h1>
           </a>
         </div>
       </Fade>

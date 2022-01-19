@@ -14,9 +14,7 @@ export default function Experience() {
     <div className="mb-8 mt-20">
       <Fade up>
         <div>
-          <h1 className="text-center mt-2 mb-10 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-            Experience
-          </h1>
+          <h1 className="heading-main">Experience</h1>
         </div>
       </Fade>
       <VerticalTimeline>

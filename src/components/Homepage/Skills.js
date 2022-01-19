@@ -7,13 +7,9 @@ export default function Skills() {
   return (
     <section className="mt-16 mx-3 justify-center">
       <Fade up>
-        <h1 className="text-center font-secondary font-semibold text-xl md:text-2xl capitalize text-blue-500">
-          WHAT I KNOW
-        </h1>
+        <h1 className="heading-tagline">WHAT I KNOW</h1>
         <div>
-          <h1 className="text-center mt-2 font-primary font-black text-3xl md:text-5xl capitalize text-gray-300 transition duration-500 ease-in-out transform hover:scale-105 hover:text-yellow-400">
-            Skills
-          </h1>
+          <h1 className="heading-main">Skills</h1>
         </div>
       </Fade>
       <Fade up>
