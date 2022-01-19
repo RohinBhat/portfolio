@@ -14,7 +14,7 @@ export default function Education() {
     <div className="my-8">
       <Fade up>
         <div>
-          <h1 className="heading-main">Education</h1>
+          <h1 className="heading-main mb-8">Education</h1>
         </div>
       </Fade>
       <VerticalTimeline>

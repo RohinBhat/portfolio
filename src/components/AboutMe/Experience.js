@@ -14,7 +14,7 @@ export default function Experience() {
     <div className="mb-8 mt-20">
       <Fade up>
         <div>
-          <h1 className="heading-main">Experience</h1>
+          <h1 className="heading-main mb-8">Experience</h1>
         </div>
       </Fade>
       <VerticalTimeline>
