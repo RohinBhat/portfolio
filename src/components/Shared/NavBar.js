@@ -1,10 +1,13 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+
 import React from "react";
 import logo from "../../images/portfolio-logo-white.png";
 import { useState } from "react";
 
 export default function NavBar() {
   const [clicked, setClicked] = useState(false);
+
+  const location = useLocation();
 
   const handleClick = () => {
     setClicked(!clicked);
@@ -59,7 +62,11 @@ export default function NavBar() {
                 key={index}
                 to={item.link}
                 onClick={handleClick}
-                className="text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-6 xl:my-auto"
+                className={
+                  location.pathname === item.link
+                    ? `text-blue-500 font-primary font-medium text-lg px-5 text-center mt-6 xl:my-auto`
+                    : `text-white font-primary font-medium text-lg px-5 text-center transition duration-500 ease-in-out hover:text-blue-500 mt-6 xl:my-auto`
+                }
               >
                 {item.title}
               </NavLink>
