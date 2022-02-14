@@ -7,7 +7,7 @@ export const OrganizationCard = (props) => {
       <div className="bg-gray-800 rounded-lg px-8 py-6 m-4 h-full">
         <div className="flex flex-col sm:flex-row sm:space-x-8 h-full">
           <img
-            className="rounded-full h-24 w-24 bg-white my-auto mx-auto sm:mx-0"
+            className="rounded-full h-24 w-24 bg-white my-auto mx-auto sm:mx-0 object-contain"
             src={logo}
             alt={name}
           />

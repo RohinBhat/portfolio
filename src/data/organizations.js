@@ -1,7 +1,14 @@
 import gdscLogo from "../images/gdsc.png";
+import pascLogo from "../images/pasc.png";
 import pictorealLogo from "../images/pictoreal.png";
 
 export const organizationsData = [
+  {
+    date: "FEBRUARY 2022 - PRESENT",
+    position: "Secretary",
+    name: "PICT ACM Student Chapter",
+    logo: pascLogo,
+  },
   {
     date: "SEPTEMBER 2021 - PRESENT",
     position: "Design Head",
