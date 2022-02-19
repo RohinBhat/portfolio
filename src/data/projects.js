@@ -6,16 +6,6 @@ import radiance from "../images/radiance21.jpg";
 
 export const projectsData = [
   {
-    name: "Radiance '21 App",
-    description:
-      "A registration app for the events conducted in Radiance '21 and deployed it on Play Store. Hosted by PICT ACM Student Chapter - Women in Computing, Radiance is a high spirited event consisting of various technical and non-technical events.",
-    image: radiance,
-    website: "https://radiance21.in/",
-    deployment:
-      "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
-    techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
-  },
-  {
     name: "Fast 'n fresh",
     description:
       "An E-commerce grocery delivery application with a focus on simplicity and speed. Has separate login for the user, the admin and the delivery boy.",
@@ -24,6 +14,16 @@ export const projectsData = [
     deployment:
       "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
     techStack: ["Flutter", "NodeJS", "MongoDB"],
+  },
+  {
+    name: "Radiance '21 App",
+    description:
+      "A registration app for the events conducted in Radiance '21 and deployed it on Play Store. Hosted by PICT ACM Student Chapter - Women in Computing, Radiance is a high spirited event consisting of various technical and non-technical events.",
+    image: radiance,
+    website: "https://radiance21.in/",
+    deployment:
+      "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
+    techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
   },
   {
     name: "Chat App",
