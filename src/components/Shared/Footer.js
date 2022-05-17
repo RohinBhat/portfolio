@@ -1,6 +1,31 @@
+import { useEffect, useState } from "react";
+
 import React from "react";
+import axios from "axios";
 
 export default function Footer() {
+  const [visits, setVisits] = useState(0);
+
+  const getVisits = async () => {
+    let config = {
+      method: "GET",
+      url: "https://api.countapi.xyz/hit/rohinbhat.me/rohin-counter",
+    };
+
+    await axios(config)
+      .then((res) => {
+        setVisits(res.data.value);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  useEffect(() => {
+    getVisits();
+    // eslint-disable-next-line
+  }, []);
+
   return (
     <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
       <div className="flex space-x-4 md:space-x-8 order-1 md:order-2">
@@ -77,13 +102,16 @@ export default function Footer() {
           </svg>
         </a>
       </div>
-      <div className="mt-4 order-2 md:order-1 md:my-auto md: mr-4">
-        <p className="font-secondary font-semibold text-gray-400 text-md ">
+      <div className="mt-4 order-2 md:order-1 md:my-auto md:mr-4 flex-col">
+        <p className="font-secondary font-semibold text-gray-400 text-md">
           Made with{" "}
           <span className="font-thin" role="img" aria-label="emoji">
             ❤️
           </span>{" "}
           by Rohin Bhat.
+        </p>
+        <p className="font-secondary font-semibold text-gray-500 text-center md:text-left text-md">
+          Website Visits: {visits}
         </p>
       </div>
     </footer>
