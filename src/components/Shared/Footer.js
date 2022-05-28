@@ -8,13 +8,13 @@ export default function Footer() {
 
   const getVisits = async () => {
     let config = {
-      method: "GET",
-      url: "https://api.countapi.xyz/hit/rohinbhat.me/rohin-counter",
+      method: "POST",
+      url: "https://rohin-portfolio-api.herokuapp.com/visits/",
     };
 
     await axios(config)
       .then((res) => {
-        setVisits(res.data.value);
+        setVisits(res.data.visits);
       })
       .catch((err) => {
         console.log(err);
