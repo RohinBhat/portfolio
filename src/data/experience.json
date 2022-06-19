@@ -4,8 +4,11 @@
         "title": "Credit Suisse",
         "subtitle": "Technology Intern",
         "website": "https://www.credit-suisse.com/us/en.html",
-        "details": null,
-        "techStack": []
+        "details": "Working on developing an Admin Dashboard for a realtime trade capture system.",
+        "techStack": [
+            "ReactJS",
+            "C#.NET"
+        ]
     },
     {
         "date": "DECEMBER 2021 - MARCH 2022",
