@@ -1,10 +1,25 @@
 import chatapp from "../images/chat-app.png";
 import defaultImage from "../images/default-project.png";
+import ecotech from "../images/ecotech.png";
 import fastnfresh from "../images/fast-n-fresh.jpg";
 import noteitdown from "../images/note-it-down.jpg";
 import radiance from "../images/radiance21.jpg";
 
 export const projectsData = [
+  {
+    name: "EcoTech",
+    description:
+      "EcoTech is a one stop e-waste management solution. It was developed as a part of the WCE Hackathon. It consists of a mobile app, the admin dashboard, the recycler's dashboard, a machine learning model and the related backend microservices.",
+    image: ecotech,
+    code: "https://github.com/EcoTech-WCE-Hackathon/EcoTech",
+    techStack: [
+      "Flutter",
+      "Django REST Framework",
+      "PostgreSQL",
+      "Docker",
+      "Kebernetes",
+    ],
+  },
   {
     name: "Fast 'n fresh",
     description:

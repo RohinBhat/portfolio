@@ -1,3 +1,4 @@
+import Achievements from "../components/AboutMe/Achievements";
 import AllProjects from "../components/AboutMe/AllProjects";
 import Education from "../components/AboutMe/Education";
 import Experience from "../components/AboutMe/Experience";
@@ -36,6 +37,7 @@ export default function AboutMe() {
       <Education />
       <Experience />
       <AllProjects />
+      <Achievements />
       <Organizations />
     </div>
   );
