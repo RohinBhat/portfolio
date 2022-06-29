@@ -16,7 +16,7 @@ export const organizationsData = [
     logo: pictorealLogo,
   },
   {
-    date: "JULY 2021 - PRESENT",
+    date: "JULY 2021 - JUNE 2022",
     position: "GDSC Lead",
     name: "Google Developer Student Clubs - PICT",
     logo: gdscLogo,
