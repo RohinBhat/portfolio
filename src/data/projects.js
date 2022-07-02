@@ -17,7 +17,7 @@ export const projectsData = [
       "Django REST Framework",
       "PostgreSQL",
       "Docker",
-      "Kebernetes",
+      "Kubernetes",
     ],
   },
   {
