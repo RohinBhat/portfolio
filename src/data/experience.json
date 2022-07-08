@@ -4,10 +4,14 @@
         "title": "Credit Suisse",
         "subtitle": "Technology Intern",
         "website": "https://www.credit-suisse.com/us/en.html",
-        "details": "Working on developing an Admin Dashboard for a realtime trade capture system.",
+        "details": [
+            "Developing an Admin Dashboard for Rockhopper, an equity and derivatives trade capture system.",
+            "Conducted a Demonstration Session on React Query for the frontend team of the Equity and Derivatives Department."
+        ],
         "techStack": [
             "ReactJS",
-            "React Query"
+            "React Query",
+            "Material UI"
         ]
     },
     {
@@ -15,7 +19,10 @@
         "title": "Pingolearn",
         "subtitle": "Mobile App Development Intern",
         "website": "https://pingolearn.com/",
-        "details": "Created assessments for hiring candidates. Worked on developing and maintaining the Pingolearn app in Flutter.",
+        "details": [
+            "Developed and maintained Pingolearn, a language learning app in Flutter.",
+            "Designed assessments for hiring candidates for full-time roles."
+        ],
         "techStack": [
             "Flutter",
             "Firebase",
@@ -27,7 +34,9 @@
         "title": "Manastik",
         "subtitle": "Software Engineer Intern",
         "website": "https://manastik.com/",
-        "details": "Worked on the developing Dementia Active Diagnosis and Tracking (DADT) mobile app based on the Hindi Mental State Examination (HMSE).",
+        "details": [
+            "Digitalized the Hindi Mental State Examination (HMSE) by developing the Dementia Active Diagnosis and Tracking (DADT) app in Flutter."
+        ],
         "techStack": [
             "Flutter",
             "NodeJS",

@@ -54,9 +54,15 @@ export default function Experience() {
               <h4 className="mb-4 font-secondary text-md font-normal text-white">
                 {experience.subtitle}
               </h4>
-              <h6 className="font-secondary text-md font-normal text-gray-400">
-                {experience.details}
-              </h6>
+
+              {experience.details.map((detail, index) => (
+                <p
+                  className="font-secondary font-normal text-gray-400"
+                  key={index}
+                >
+                  • {detail}
+                </p>
+              ))}
               <div className="mb-2">
                 <div className="align-middle items-start mt-2 space-y-2">
                   {experience.techStack.map((stack, index) => {
