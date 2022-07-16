@@ -1,8 +1,8 @@
-import Achievements from "../components/AboutMe/Achievements";
 import AllProjects from "../components/AboutMe/AllProjects";
 import Education from "../components/AboutMe/Education";
 import Experience from "../components/AboutMe/Experience";
 import Fade from "react-reveal/Fade";
+import Hackathons from "../components/AboutMe/Hackathons";
 import Organizations from "../components/AboutMe/Organizations";
 import React from "react";
 
@@ -37,7 +37,7 @@ export default function AboutMe() {
       <Education />
       <Experience />
       <AllProjects />
-      <Achievements />
+      <Hackathons />
       <Organizations />
     </div>
   );

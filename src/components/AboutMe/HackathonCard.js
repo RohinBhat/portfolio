@@ -1,8 +1,8 @@
 import React from "react";
 
-export default function AchievementCard(props) {
+export default function HackathonCard(props) {
   const { name, position, teamName, solution, date, description, website } =
-    props.achievement;
+    props.hackathon;
 
   return (
     <div className="pt-4 w-full xl:w-1/2 mt-4">
