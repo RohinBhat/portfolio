@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+
+import Modal from "react-modal";
+
+Modal.setAppElement("body");
 
 export const ProjectCard = (props) => {
-  const { name, description, image, code, website, deployment, techStack } =
-    props.project;
+  const {
+    name,
+    description,
+    image,
+    code,
+    website,
+    deployment,
+    techStack,
+    sysArch,
+  } = props.project;
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
 
   return (
     <div className="pt-4 w-full max-w-lg lg:w-1/2 xl:w-1/3 mt-4">
@@ -67,6 +85,50 @@ export const ProjectCard = (props) => {
                 <path d="M 26.978516 3.0214844 C 26.978516 3.0214844 18 3 11 10 C 10.676811 10.323189 10.395406 10.675024 10.140625 11.039062 C 8.8995439 10.939831 6.9997651 10.972248 6.0273438 11.945312 C 3.7573437 14.215312 3 18 3 18 L 8 17.285156 L 8 19 L 11 22 L 12.714844 22 L 12 27 C 12 27 15.784688 26.242656 18.054688 23.972656 C 19.027752 23.000235 19.060169 21.100456 18.960938 19.859375 C 19.324976 19.604594 19.676811 19.323189 20 19 C 27 12 26.978516 3.0214844 26.978516 3.0214844 z M 19 9 C 20.105 9 21 9.895 21 11 C 21 12.105 20.105 13 19 13 C 17.895 13 17 12.105 17 11 C 17 9.895 17.895 9 19 9 z M 7.1992188 19.996094 C 6.8192188 20.096094 6.4591094 20.286984 6.1621094 20.583984 C 4.7961094 21.949984 5.0136719 24.984375 5.0136719 24.984375 C 5.0136719 24.984375 8.0281094 25.219938 9.4121094 23.835938 C 9.7091094 23.538937 9.9 23.176875 10 22.796875 L 9.5429688 22.339844 C 9.4979688 22.403844 9.4701094 22.478156 9.4121094 22.535156 C 8.4371094 23.510156 6.9746094 23.023438 6.9746094 23.023438 C 6.9746094 23.023438 6.4868906 21.560938 7.4628906 20.585938 C 7.5208906 20.527938 7.59225 20.501078 7.65625 20.455078 L 7.1992188 19.996094 z"></path>
               </svg>
             </a>
+          ) : null}
+          {sysArch ? (
+            <>
+              <button onClick={() => toggleModal()}>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 48 48"
+                  className="circled-icon"
+                >
+                  <path
+                    xmlns="http://www.w3.org/2000/svg"
+                    d="M13.45 42 13 38.7l6.35-17.5q.55.55 1.225.9t1.425.6l-6.15 16.95Zm21.1 0-2.4-2.35-6.25-16.9q.75-.25 1.45-.6t1.25-.9L35 38.7ZM24 22q-2.5 0-4.25-1.75T18 16q0-2.1 1.225-3.725T22.5 10.2V6h3v4.2q2.05.45 3.275 2.075Q30 13.9 30 16q0 2.5-1.75 4.25T24 22Zm0-3q1.25 0 2.125-.875T27 16q0-1.25-.875-2.125T24 13q-1.25 0-2.125.875T21 16q0 1.25.875 2.125T24 19Z"
+                  />
+                </svg>
+              </button>
+              <Modal
+                isOpen={isModalOpen}
+                onRequestClose={() => toggleModal()}
+                style={{
+                  overlay: {
+                    zIndex: 20,
+                    backgroundColor: "#000a",
+                  },
+                }}
+                className="bg-gray-800 my-auto h-auto absolute top-20 left-10 right-10 md:left-40 md:right-40 bottom-40 md:bottom-20 rounded-xl"
+              >
+                <div className="w-full h-full">
+                  <h1 className="font-bold font-primary text-center text-4xl text-gray-300 hover:text-yellow-400 transition duration-500 ease-in-out my-6 mx-4">
+                    {name} System Architecture
+                  </h1>
+                  <iframe
+                    className="w-5/6 sm:w-3/4 h-1/2 sm:h-4/6 mx-auto cursor-pointer"
+                    src={sysArch}
+                    title="architechture"
+                  />
+                  <button
+                    className="flex mt-8 w-auto mx-auto text-center font-secondary bg-blue-500 transition duration-500 ease-in-out hover:bg-blue-600 text-white font-semibold hover:text-white py-4 px-12 border border-blue-500 hover:border-transparent rounded"
+                    onClick={() => toggleModal()}
+                  >
+                    Close
+                  </button>
+                </div>
+              </Modal>
+            </>
           ) : null}
         </div>
       </div>

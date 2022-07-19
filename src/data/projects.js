@@ -20,6 +20,7 @@ export const projectsData = [
       "Docker",
       "Kubernetes",
     ],
+    sysArch: "https://sysArch.burhanuddinmerchant.me/ecotech.html",
   },
   {
     name: "Fast 'n fresh",
@@ -30,6 +31,7 @@ export const projectsData = [
     deployment:
       "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
     techStack: ["Flutter", "NodeJS", "MongoDB"],
+    sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
   {
     name: "Radiance '21 App",
