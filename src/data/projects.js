@@ -14,6 +14,7 @@ export const projectsData = [
     code: "https://github.com/EcoTech-WCE-Hackathon/EcoTech",
     techStack: [
       "Flutter",
+      "Next JS",
       "Django REST Framework",
       "PostgreSQL",
       "Docker",
