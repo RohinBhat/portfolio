@@ -127,7 +127,7 @@ export const ProjectCard = (props) => {
                 </div>
                 <div className="h-full my-auto">
                   <h1 className="font-bold font-primary text-center text-2xl text-gray-300 hover:text-yellow-400 transition duration-500 ease-in-out -mt-8 mb-6 mx-16">
-                    {name} System Architecture
+                    System Architecture
                   </h1>
                   <iframe
                     className="w-5/6 sm:w-3/4 h-2/3 md:h-3/4 mx-auto cursor-pointer"
