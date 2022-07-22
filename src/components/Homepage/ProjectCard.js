@@ -111,21 +111,29 @@ export const ProjectCard = (props) => {
                 }}
                 className="bg-gray-800 my-auto h-auto absolute top-20 left-10 right-10 md:left-40 md:right-40 bottom-40 md:bottom-20 rounded-xl"
               >
-                <div className="w-full h-full">
-                  <h1 className="font-bold font-primary text-center text-4xl text-gray-300 hover:text-yellow-400 transition duration-500 ease-in-out my-6 mx-4">
+                <div className="flex flex-row">
+                  <button
+                    className="ml-auto mt-6 mr-6"
+                    onClick={() => toggleModal()}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 48 48"
+                      className="h-8 w-8 fill-current text-gray-200 stroke-current stroke-2"
+                    >
+                      <path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+                    </svg>
+                  </button>
+                </div>
+                <div className="h-full my-auto">
+                  <h1 className="font-bold font-primary text-center text-2xl text-gray-300 hover:text-yellow-400 transition duration-500 ease-in-out -mt-8 mb-6 mx-16">
                     {name} System Architecture
                   </h1>
                   <iframe
-                    className="w-5/6 sm:w-3/4 h-1/2 sm:h-4/6 mx-auto cursor-pointer"
+                    className="w-5/6 sm:w-3/4 h-2/3 md:h-3/4 mx-auto cursor-pointer"
                     src={sysArch}
                     title="architechture"
                   />
-                  <button
-                    className="flex mt-8 w-auto mx-auto text-center font-secondary bg-blue-500 transition duration-500 ease-in-out hover:bg-blue-600 text-white font-semibold hover:text-white py-4 px-12 border border-blue-500 hover:border-transparent rounded"
-                    onClick={() => toggleModal()}
-                  >
-                    Close
-                  </button>
                 </div>
               </Modal>
             </>
