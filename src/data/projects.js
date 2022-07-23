@@ -30,7 +30,14 @@ export const projectsData = [
     code: "https://github.com/Fast-n-fresh/fast-n-fresh-app",
     deployment:
       "https://github.com/Fast-n-fresh/fast-n-fresh-app/releases/download/v1.0-beta/app-release.apk",
-    techStack: ["Flutter", "NodeJS", "MongoDB"],
+    techStack: [
+      "Flutter",
+      "NodeJS",
+      "MongoDB",
+      "Docker",
+      "Cloudinary",
+      "Terraform",
+    ],
     sysArch: "https://sysarch.burhanuddinmerchant.me/fnf.html",
   },
   {
