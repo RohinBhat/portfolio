@@ -5,8 +5,9 @@
         "subtitle": "Technology Intern",
         "website": "https://www.credit-suisse.com/us/en.html",
         "details": [
-            "Developed an Admin Dashboard for Rockhopper, a trade query and trade entry system for Credit Suisse's Equity Derivatives trading business.",
-            "Conducted a Demonstration Session on React Query for the frontend team of the Equity Derivatives Department."
+            "Developed an Admin Dashboard for Rockhopper, a trade query and trade entry system for Credit Suisse's Equity Derivatives trading business, reducing around 2 hours of the system admin's time.",
+            "Conducted a Demonstration Session for the frontend team of the Equity and Derivatives Department on React Query, which was later used for caching data on the SphereUnderlyings portal.",
+            "Improved the User Interface for SphereUnderlyings, a web-based global client intelligence platform, hence enchancing the User Experience in UAT."
         ],
         "techStack": [
             "ReactJS",
