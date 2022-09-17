@@ -10,7 +10,13 @@ export const organizationsData = [
     logo: pascLogo,
   },
   {
-    date: "SEPTEMBER 2021 - PRESENT",
+    date: "SEPTEMBER 2022 - PRESENT",
+    position: "Joint Secretary",
+    name: "Pictoreal, PICT",
+    logo: pictorealLogo,
+  },
+  {
+    date: "SEPTEMBER 2021 - SEPTEMBER 2022",
     position: "Design Head",
     name: "Pictoreal, PICT",
     logo: pictorealLogo,
