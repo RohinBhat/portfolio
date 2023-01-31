@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 
 import React from "react";
-import axios from "axios";
+
+// import axios from "axios";
 
 export default function Footer() {
   // const [visits, setVisits] = useState(0);
