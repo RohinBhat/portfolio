@@ -4,27 +4,27 @@ import React from "react";
 import axios from "axios";
 
 export default function Footer() {
-  const [visits, setVisits] = useState(0);
+  // const [visits, setVisits] = useState(0);
 
-  const getVisits = async () => {
-    let config = {
-      method: "POST",
-      url: "https://rohin-portfolio-api.herokuapp.com/visits/",
-    };
+  // const getVisits = async () => {
+  //   let config = {
+  //     method: "POST",
+  //     url: "https://rohin-portfolio-api.herokuapp.com/visits/",
+  //   };
 
-    await axios(config)
-      .then((res) => {
-        setVisits(res.data.visits);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  };
+  //   await axios(config)
+  //     .then((res) => {
+  //       setVisits(res.data.visits);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  // };
 
-  useEffect(() => {
-    getVisits();
-    // eslint-disable-next-line
-  }, []);
+  // useEffect(() => {
+  //   getVisits();
+  //   // eslint-disable-next-line
+  // }, []);
 
   return (
     <footer className="relative bottom-0 left-0 w-full px-5 flex flex-col border-dashed border-t border-gray-700 mt-8 py-4 justify-center items-center md:justify-between md:flex-row">
