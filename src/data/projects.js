@@ -45,7 +45,7 @@ export const projectsData = [
     description:
       "A registration app for the events conducted in Radiance '21 and deployed it on Play Store. Hosted by PICT ACM Student Chapter - Women in Computing, Radiance is a high spirited event consisting of various technical and non-technical events.",
     image: radiance,
-    website: "https://radiance21.in/",
+    // website: "https://radiance21.in/",
     deployment:
       "https://play.google.com/store/apps/details?id=com.pasc.radiance2021",
     techStack: ["Flutter", "NodeJS", "Firebase Cloud Messaging"],
